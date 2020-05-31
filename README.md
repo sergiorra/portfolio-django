@@ -1,2 +1,2 @@
 # portfolio-django
-Personal Portfolio 
+Personal Portfolio using Django Framework
