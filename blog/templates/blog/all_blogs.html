@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=H, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Hello Blog {% for blog in blogs %}
+    <h2>{{blog.title}}</h2>
+    <h5>{{blog.date}}</h5>
+    <p>{{blog.description}}</p>
+    {%endfor%}
+  </body>
+</html>
