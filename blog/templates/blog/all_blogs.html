@@ -3,7 +3,7 @@
 <h1 id="blogtitle" class="font-weight-bold text-center">Blog</h1>
 
 <h3 class="text-center mb-5">
-  Sergi has written {{ blogs.count }} blog{{ blogs.count | pluralize }}
+  {{ blogs.count }} blog{{ blogs.count | pluralize }} written
 </h3>
 
 {% for blog in blogs %}
